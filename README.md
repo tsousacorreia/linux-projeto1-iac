@@ -2,6 +2,7 @@
 
 Este projeto foi desenvolvido durante o curso **"Santander - Linux para Iniciantes"**, oferecido na plataforma da **DIO**.
 O objetivo é aplicar os conceitos de **Infraestrutura como Código (IaC)** para automatizar a configuração de um ambiente Linux.
+
 Trata-se de um script que automatiza a criação de usuários, diretórios e configurações de permissões em um ambiente Linux.  
 
 ## 📌 Funcionalidades  
@@ -16,10 +17,12 @@ Trata-se de um script que automatiza a criação de usuários, diretórios e con
 ## 📂 Como Usar  
 1. Clone este repositório:  
    ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   git clone https://github.com/tsousacorreia/linux-projeto1-iac.git
 
 2. Torne o script executável:
+   ```bash
    chmod +x iac1.sh
 
-3. Execute como superusuário:
+4. Execute como superusuário:
+   ```bash
    sudo ./iac1.sh
